@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>discovery</category>
+        <content><![CDATA[    <h1 class="title topictitle1">View discoveries in the log</h1>        <div class="body taskbody">        <div class="section context">View entries in the Discovery Log to troubleshoot a <span class="ph">Discovery</span>. The system displays            useful information in the log, such as the CI that was scanned and the probe that was            used.</div>        <ol class="ol steps"><li class="li step stepexpand">                <span class="ph cmd">Check the message and the severity level for issues that arise.</span>            </li><li class="li step stepexpand">                <span class="ph cmd">Do any of the following: </span>                <div class="itemgroup info">                    <ul class="ul" id="discovery_log-normal__d20641e83"><li class="li">Click a link in the <span class="ph uicontrol">CI column</span> to open the record                            for that CI.</li><li class="li">Click the link in the <span class="ph uicontrol">Created</span> column to view the                            log record.</li><li class="li">Click the IP address link in the <span class="ph uicontrol">Device</span> column to                            view the log records for a particular device.</li></ul>                </div>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:DiscoveryLog&amp;version&#61;jakarta" target="_blank" rel="nofollow">Open the Discovery log</a></div></div></div></div>]]></content>
+        <last_sync>2018-03-26 18:11:11</last_sync>
+        <modifier>normal</modifier>
+        <name>discovery_log-normal</name>
+        <page>discovery_log</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-10 16:06:14</sys_created_on>
+        <sys_id>0a631e004f4f4300f94a3ce18110c75f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>discovery_log-normal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_0a631e004f4f4300f94a3ce18110c75f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-26 18:11:11</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a631e004f4f4300f94a3ce18110c75f"/>
+</record_update>

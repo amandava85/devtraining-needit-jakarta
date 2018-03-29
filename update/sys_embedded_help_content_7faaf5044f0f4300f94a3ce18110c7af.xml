@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>mid-server</category>
+        <content><![CDATA[    <h1 class="title topictitle1">MID Server clusters</h1>        <div class="body taskbody">        <ol class="ol steps"><li class="li step stepexpand">                <span class="ph cmd">Name the cluster and select the cluster type: <span class="ph uicontrol">Failover</span>                    or <span class="ph uicontrol">Load Balance</span>.</span>            </li><li class="li step stepexpand">                <span class="ph cmd">Right click in the header bar and select <span class="ph uicontrol">Save</span> from the                    context menu.</span>            </li><li class="li step stepexpand">                <span class="ph cmd">Click <span class="ph uicontrol">Edit</span> in the <span class="ph uicontrol">Includes MID                        Servers</span> Related List.</span>            </li><li class="li step stepexpand">                <span class="ph cmd">Select appropriate MID Servers for this cluster from the slushbucket.</span>                <div class="itemgroup info">                    <div class="note note"><span class="notetitle">Note:</span> All MID Servers in a cluster should have capabilities defined.                        Ensure that each MID Server has the appropriate capabilities for the job. A                        MID Server in a fail-over cluster must have the same capabilities (or                        expanded capabilities) as the MID Server it is expected to replace.</div>                </div>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:MID_Server_Cluster&amp;version&#61;jakarta" target="_blank" rel="nofollow">MID Server cluster configuration</a></div></div></div></div>]]></content>
+        <last_sync>2018-03-26 18:11:07</last_sync>
+        <modifier>normal</modifier>
+        <name>ecc_agent_cluster-normal</name>
+        <page>ecc_agent_cluster</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-10 14:18:13</sys_created_on>
+        <sys_id>7faaf5044f0f4300f94a3ce18110c7af</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ecc_agent_cluster-normal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_7faaf5044f0f4300f94a3ce18110c7af</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-26 18:11:07</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=7faaf5044f0f4300f94a3ce18110c7af"/>
+</record_update>
